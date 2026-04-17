@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Baguio Track | Sign Up</title>
 
-<link rel="stylesheet" href="/BaguioTrack/assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
 
 <style>
 #optionsContainer{
@@ -56,7 +56,7 @@
 <section id="login-section">
   <div class="login-container">
 
-    <img src="/BaguioTrack/assets/images/logo.png" alt="Baguio Track Logo" class="logo" />
+    <img src="/assets/images/logo.png" alt="Baguio Track Logo" class="logo" />
 
     <h1>Baguio Track</h1>
     <p>Choose how you'd like to start exploring.</p>
@@ -73,7 +73,7 @@
       </div>
 
       <div class="admin-link">
-        <a href="/BaguioTrack/pages/adminlogin.html" class="button-like">Sign In as Admin</a>
+        <a href="/pages/adminlogin.html" class="button-like">Sign In as Admin</a>
       </div>
     </form>
 
@@ -116,7 +116,7 @@ document.getElementById("googleSignUpBtn").addEventListener("click", async () =>
       localStorage.setItem("baguioTrackProfileImage", user.photoURL);
     }
 
-    window.location.href = "/BaguioTrack/pages/home.html";
+    window.location.href = "/pages/home.html";
   } catch (error) {
     alert("❌ " + error.message);
   }
